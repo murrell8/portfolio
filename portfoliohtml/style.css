@@ -1,0 +1,161 @@
+.nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1d301d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 0;
+    background-color: #dcedc9;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+p {
+    text-align: justify;
+    padding: 0 150px 0 150px;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
+ div .runnerimage, div .loversimage, div .bpgimage, div .underbrushimage, div .erpimage {
+    display: block;
+}
+
+#runnerimg1 {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    margin-left: 150px;
+    height: 400px;
+    width: 200px;
+}
+
+#runnerimg2 {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    margin-right: 150px;
+    height: 400px;
+    width: 200px;
+}
+
+#loversimg1 {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    margin-right: 150px;
+    height: 200px;
+    width: 400px;
+}
+
+#loversimg2 {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    margin-left: 150px;
+    height: 250px;
+    width: 200px;
+}
+
+#underimg1 {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    margin-left: 150px;
+    height: 200px;
+    width: 400px;
+}
+
+#underimg2 {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    margin-right: 150px;
+    height: 200px;
+    width: 400px;
+}
+
+#bpgimg1 {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    margin-right: 150px;
+    height: 280px;
+    width: 400px;
+}
+
+#bpgimg2 {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    margin-left: 150px;
+    height: 280px;
+    width: 400px;
+}
+
+#erpimg1 {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    margin-left: 150px;
+    height: 200px;
+    width: 450px;
+    border-radius: 15%;
+}
+
+#erpimg2 {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    margin-right: 150px;
+    height: 200px;
+    width: 450px;
+    border-radius: 15%;
+}
+
+.titleimg {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 70%;
+}
+
+.active {
+    background-color: green;
+}
+
+div .idpic {
+    display: block;
+}
+
+#profilepic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.aboutme {
+    text-align: center;
+}
